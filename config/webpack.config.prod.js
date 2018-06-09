@@ -206,7 +206,7 @@ module.exports = {
                       },
                     },
                     {
-                      loader:require.resolver('less-loader')
+                      loader:require.resolve('less-loader')
                     }
                   ],
                 },
